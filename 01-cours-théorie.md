@@ -24,6 +24,22 @@ Pour être plus clair : Un être humain peut faire une erreur (méprise), qui pr
 * Les tests dépendent du contexte
 * L'illusion de l'absence d'erreur
 
+## Le test et le dévoleppeur
 
+### Le Mouvement Agile
+
+* Scrum
+* eXtreme Programming
+
+### TDD, BDD, DDD, gratter Dédé
+
+### La qualité au quotidien
+
+## Outils
+
+## Ouverture sur le prochain cours
 
 ## Application
+
+
+
