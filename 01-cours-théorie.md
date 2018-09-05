@@ -5,6 +5,7 @@
 * Fournir une culture générale autour de la qualité et du test
 * Identifier quels sont les critères qualités d'un logiciel.
 * Identifier les différents types de tests et d'action à mettre en place pour amélirer la qualité d'un logiciel.
+* Pouvoir mettre en place des processus de qualité sur ses projets
 
 
 ## Introduction
