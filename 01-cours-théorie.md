@@ -24,7 +24,7 @@ Pour être plus clair : Un être humain peut faire une erreur (méprise), qui pr
 * Les tests dépendent du contexte
 * L'illusion de l'absence d'erreur
 
-## Le test et le dévoleppeur
+## Le test et le développeur
 
 ### Le Mouvement Agile
 
