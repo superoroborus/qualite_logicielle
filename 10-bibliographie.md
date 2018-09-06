@@ -5,3 +5,5 @@
 * [Syllabus Testeur Agile](http://www.cftl.fr/wp-content/uploads/2016/09/FND-Agile-Syllabus_GA_Candidate_FR-1-2.pdf)
 * [xDD démystifiés](http://www.cftl.fr/wp-content/uploads/2018/04/JFTL-2018-Gratter-D%C3%A9d%C3%A9-ou-les-xDD-d%C3%A9mystifi%C3%A9s.pdf)
 * [99 ballons](http://coach-agile.com/99-ballons/)
+* [Article sur l'importance de l'intégration continue dans le développement applicatif](https://blog.getty.io/importance-of-continuous-integration-on-software-development-30ab74c61c1) (en anglais)
+* [Vidéo sur l'intégration continue](https://www.youtube.com/watch?v=ymPOI4gWQFY) (en anglais aussi)
