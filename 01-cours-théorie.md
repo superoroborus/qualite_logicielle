@@ -41,5 +41,26 @@ Pour être plus clair : Un être humain peut faire une erreur (méprise), qui pr
 
 ## Application
 
+## Exercices :
+
+### Le jeu des sept erreurs : 
+
+Repérer, dans un listing, des erreurs courantes. Cet exercice à pour but d'affiner vos compétences lors des revues. 
+
+Les erreurs peuvent être les suivantes :
+
+* [ ] Problème d'indentation
+* [ ] Erreur de code
+* [ ] Assignation incorrecte
+* [ ] Code mort
+
+Il est aussi possible de trouver des améliorations : 
+
+* [ ] Suppression de code
+* [ ] Optimisation
+
+
+
+
 
 
