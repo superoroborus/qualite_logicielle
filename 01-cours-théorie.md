@@ -34,6 +34,42 @@ Il faut néanmoins se rappeler que la qualité à un cout, faire des tests prend
 
 Quand on investi trop dans la qualité par rapport à ce que l'on devrait on parle alors de surqualité. 
 
+### La qualité en tant que métier.
+
+Au cours de votre carrière, vous serez amener à faire vous même du test, à participer, en tant que développeur, à la qualité. Il faut savoir aussi qu'il s'agit d'un métier, d'une carrière que vous pouvez embrasser.
+
+Nous allons voir, dans le chapitre suivant, quelques compléments sur le test et le métier de testeur.
+
+## Le test et le testeur
+
+### Qu'est ce qu'un testeur
+
+Son rôle est de trouver des bugs, un bug étant un défaut produit dans un logiciel, un système ou un document, par l'erreur d'un être humain qui peut entrainer une défaillance. Le testeur a aussi pour rôle de préparer et d'écire des cas de test à partir deséléments dont il dispose. Le plus important, pour lui, est de savoir ce qui fait qu'un test passe ou échoue. 
+
+Il peut s'agir d'un membre identifié d'une équipe, d'un développeur, d'un service tiers ou du client...
+
+Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
+
+### Les principes du test
+
+* Les tests montrent la présence de défauts
+* Les tests exhaustifs sont impossibles
+* Tester tôt
+* Regroupement des défauts
+* Paradoxe du pesticide
+* Les tests dépendent du contexte
+* L'illusion de l'absence d'erreurs
+
+### Les niveaux de tests
+
+L'ISTQB en définit 4 :
+* Composant
+* Intégration
+* Système
+* Acceptance
+
+
+
 ## Quoi faire pour améliorer la qualité de développement
 
 ### Suivre une méthodologie agile (et la suivre bien)
@@ -44,6 +80,14 @@ Quand on investi trop dans la qualité par rapport à ce que l'on devrait on par
 Cf. Annexe pour les détails
 
 ### Adopter des standards
+
+Pour de nombreuses raisons, il est utile d'adopter et de suivre des standards de développement. quelque soit le langage que vous utilisiez, des normes ont été émises pour définir les crtières d'écriture de code, de formatage des commentaires, de définition des interfaces. En PHP on a, par exemple, les PSR : PHP Standards Recommendations.
+
+Suivre des standards ou en définir pour son équipe permet à tout le monde d'écrire les choses de la même manière. Cela permet de faciliter la lecture du code. 
+
+Il est important, quand on intégre une équipe, de se renseigner sur les standards adoptés. 
+
+A noter qu'il existe aussi des standards ou des référentiels sur des sujets qui nne sont pas lié au code particuliérement comme des stadards d'accessibilité ou d'ergonomie qu'il est bon de connaitre quand on fait, par exemple, du développement front.
 
 ### Pratiquer la Revue 
 
@@ -71,62 +115,34 @@ L'inconvénient de cette méthode est qu'elle va impliquer le temps de deux pers
 
 *J'aimerais bien vivre en Théorie, car en Théorie tout se passe bien.*
 
+Avant toute chose, il convient de rappeler ce qu'est le test unitaire : le test unitaire  est une procédure permettant de vérifier le bon fonctionnement d'un composant (voir plus haut)
 
 
 ### Automatiser l'exécution des tests
 
 ### Livrer réguliérement
 
-## Le test et le testeur
-
-### Qu'est ce qu'un testeur
-
-Son rôle est de trouver des bugs, un bug étant un défaut produit dans un logiciel, un système ou un document, par l'erreur d'un être humain qui peut entrainer une défaillance. 
-
-Il peut s'agir d'un membre identifié d'une équipe, d'un développeur, d'un service tiers ou du client...
-
-Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
-
-### Les principes du test
-
-* Les tests montrent la présence de défauts
-* Les tests exhaustifs sont impossibles
-* Tester tôt
-* Regroupement des défauts
-* Paradoxe du pesticide
-* Les tests dépendent du contexte
-* L'illusion de l'absence d'erreurs
-
-### Les niveaux de tests
-
-L'ISTQB en définit 4 :
-* Composant
-* Intégration
-* Système
-* Acceptance
-
-## Le test et le développeur
-
-## Processus qualités à mettre en oeuvre
-
-### Développement de tests unitaires 
-
-### Le pilotage par les tests
-
-### La revue
-
-
-### TDD, BDD, DDD, gratter Dédé
-
-### La qualité au quotidien
-
+Pour ces deux points, nous verrons plus loin que ces bonnes pratiques sont facilités par la mise en place d'une plateforme d'intégration continue.
 
 
 ## Outils
 
-## Ouverture sur le prochain cours
+Il est important ici d'identifier quelques familles d'outils que l'on va retrouver quelque soit le langage que l'on utilise.
 
-## Application
+### Système de gestion de version
+
+* git (à ne pas confondre avec github).
+* github (à ne pas confondre avec git)
+
+### Les linters
+
+### Les outils de statistiques
+
+### Les framework de test
+
+### Les outils de déploiement
+
+### Les plateformes d'intégration continue
 
 ## Exercices :
 
@@ -146,8 +162,7 @@ Il est aussi possible de trouver des améliorations :
 * [ ] Suppression de code
 * [ ] Optimisation
 
+### 99 luftballons
 
 
-
-
-
+## Ouverture sur le prochain cours
