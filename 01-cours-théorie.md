@@ -42,15 +42,56 @@ Nous allons voir, dans le chapitre suivant, quelques compléments sur le test et
 
 ## Le test et le testeur
 
+### Rappel
+L'origine des bugs : Il sagit d'une erreur humaine qui entraine un défaut (ou bug) qui cause une défaillance. 
+
 ### Qu'est ce qu'un testeur
 
-Son rôle est de trouver des bugs, un bug étant un défaut produit dans un logiciel, un système ou un document, par l'erreur d'un être humain qui peut entrainer une défaillance. Le testeur a aussi pour rôle de préparer et d'écire des cas de test à partir deséléments dont il dispose. Le plus important, pour lui, est de savoir ce qui fait qu'un test passe ou échoue. 
+Le testeur, dans un projet, à la charge d'assurer de la fiabilité du logiciel, pour cela plusieurs tâches lui incombe : travail de préparation, implémentation et exécution des tests puis evaluation et reporting. Nous allons détailler ces étapes un peu plus loin. Selon les tailles d'équipe il peut aussi avoir la charge de planification des campagnes de tests, un contrôle sur l'avancement des tests et une cloture pour valider (ou non) qu'un logiciel est suffisamment fiable pour être déployé. 
 
 Il peut s'agir d'un membre identifié d'une équipe, d'un développeur, d'un service tiers ou du client...
 
+#### Analyse et conception 
+ 
+Il s'agit d'un travail d'analyse bien souvent. A partir du matériel mis à disposition (specifications, user story, code existant) le testeur va établir des oracles de test, c'est à dire des éléments pour déterminer ce qui fait que les tests passent ou échouent. Cette phase permet déjà de relever des éventuels incohérences ou imprécisions.
+
+
+
+**Exemple** : 
+
+*Je veux que mon application de calcul de taux d'intérêt applique un pourcentage de 2% si le solde est supérieur à 100€ et de 1% si le solde est inférieur à 100 €* : Quel est la question que le testeur doit poser pour lever une éventuel imprécision ?
+
+#### Implémentation et execution 
+
+Il s'agit là de la partie effective, qui consiste a exécuter les tests et implémenter effectivement les tests. Pour ça on découpe souvent ceci en campagne. Nous verrons dans le chapitre suivant un focus sur les différents niveaux de test. 
+
+#### Evaluation et Reporting 
+
+Cet phase permet...
+
+### Les niveaux de tests
+
+On compte quatre niveaux de test (je me réfère ici aux définitions de l'ISTQB)
+
+* Composant
+* Intégration
+* Système
+* Acceptance
+
+Si on détaille ces différents niveaux : 
+
+#### Composant 
+
+Traditionnellement on parle de test unitaire. Il s'agit des tests du développeur.
+
+
+#### Être un testeur certifié 
+
 Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
 
-### Les principes du test
+### En complément : 
+
+#### Les principes du test
 
 * Les tests montrent la présence de défauts
 * Les tests exhaustifs sont impossibles
@@ -59,16 +100,6 @@ Il existe, et ceci afin que les différentes entreprises informatiques voulant p
 * Paradoxe du pesticide
 * Les tests dépendent du contexte
 * L'illusion de l'absence d'erreurs
-
-### Les niveaux de tests
-
-L'ISTQB en définit 4 :
-* Composant
-* Intégration
-* Système
-* Acceptance
-
-
 
 ## Quoi faire pour améliorer la qualité de développement
 
@@ -124,7 +155,6 @@ Avant toute chose, il convient de rappeler ce qu'est le test unitaire : le test 
 
 Pour ces deux points, nous verrons plus loin que ces bonnes pratiques sont facilités par la mise en place d'une plateforme d'intégration continue.
 
-
 ## Outils
 
 Il est important ici d'identifier quelques familles d'outils que l'on va retrouver quelque soit le langage que l'on utilise.
@@ -133,6 +163,8 @@ Il est important ici d'identifier quelques familles d'outils que l'on va retrouv
 
 * git (à ne pas confondre avec github).
 * github (à ne pas confondre avec git)
+
+### Les VMs et Conteneurs 
 
 ### Les linters
 
