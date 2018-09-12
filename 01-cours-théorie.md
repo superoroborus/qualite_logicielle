@@ -55,19 +55,39 @@ Il peut s'agir d'un membre identifié d'une équipe, d'un développeur, d'un ser
  
 Il s'agit d'un travail d'analyse bien souvent. A partir du matériel mis à disposition (specifications, user story, code existant) le testeur va établir des oracles de test, c'est à dire des éléments pour déterminer ce qui fait que les tests passent ou échouent. Cette phase permet déjà de relever des éventuels incohérences ou imprécisions.
 
-
-
 **Exemple** : 
 
 *Je veux que mon application de calcul de taux d'intérêt applique un pourcentage de 2% si le solde est supérieur à 100€ et de 1% si le solde est inférieur à 100 €* : Quel est la question que le testeur doit poser pour lever une éventuel imprécision ?
 
 #### Implémentation et execution 
 
-Il s'agit là de la partie effective, qui consiste a exécuter les tests et implémenter effectivement les tests. Pour ça on découpe souvent ceci en campagne. Nous verrons dans le chapitre suivant un focus sur les différents niveaux de test. 
+Il s'agit là de la partie effective, qui consiste a automatiser les tests, les arranger sous forme de suite et les exécuter en fonction de priroités définies à l'étape précédente. Pour ça on découpe souvent ceci en campagne. Nous verrons dans le chapitre suivant un focus sur les différents niveaux de test. Il arrive 
+
 
 #### Evaluation et Reporting 
 
-Cet phase permet...
+Le but de cette phase est de fournir un retour et une visibilité sur les activités de test. Ce reporting peut-être fait de manière manuelle mais aussi automatique. Elle permet de savoir ce qui s'est passé lors d'une campagne de test :
+
+* Le nombre de tests excutés.
+* Le nombre d'échecs et de réussites.
+* Les informations sur les défauts.
+* La couverture, par les tests des exigences, des risques ou du code.
+
+#### Exercices 
+
+Dans l'exemple suivant, quel est le nombre minimu de cas de test nécessaires pour obtenir une couverture de 100% de couverture?
+
+```
+   Reduction = 0
+   Quantite = 0
+   Read Quantite
+   If Quantite >= 20 then
+      Reduction = 0.05
+      If Quantite >= 100
+         Reduction = 0.1
+      End If
+   End If
+```
 
 ### Les niveaux de tests
 
@@ -82,10 +102,28 @@ Si on détaille ces différents niveaux :
 
 #### Composant 
 
-Traditionnellement on parle de test unitaire. Il s'agit des tests du développeur.
+Traditionnellement on parle de test unitaire. Il s'agit des tests du développeur. Cette partie permet de tester le fonctionnement interne des composant.
 
+#### Intégration
 
-#### Être un testeur certifié 
+Les tests d'intégration permettent de tester les interfaces entre les composants. Pour cela on fait appel, bien souvent, à des mocks. Cette partie permet d'isoler les défauts liés à un compoant en particulier.
+
+#### Système
+
+Les tests système vont valider le fonctionnement du logiciel dans son ensemble. 
+
+#### Acceptation
+
+Les tests d'acceptation dont des tests de haut niveau permettant de vérifier si les fonctionnalités du logiciel correspondent aux attentes du client et si le système est utilisable.
+
+#### A retenir
+
+* Plus un bug est trouvé tôt, moins il est couteux à corriger.
+* Les tests sont automatisable à tout niveau
+* Un test non executé ne sert à rien
+* Les bons tests échouent
+
+### Être un testeur certifié 
 
 Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
 
@@ -195,6 +233,7 @@ Il est aussi possible de trouver des améliorations :
 * [ ] Optimisation
 
 ### 99 luftballons
+
 
 
 ## Ouverture sur le prochain cours
