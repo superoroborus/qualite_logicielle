@@ -51,6 +51,12 @@ Le testeur, dans un projet, à la charge d'assurer de la fiabilité du logiciel,
 
 Il peut s'agir d'un membre identifié d'une équipe, d'un développeur, d'un service tiers ou du client...
 
+#### Être un testeur certifié 
+
+Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
+
+### Les travaux du testeur
+
 #### Analyse et conception 
  
 Il s'agit d'un travail d'analyse bien souvent. A partir du matériel mis à disposition (specifications, user story, code existant) le testeur va établir des oracles de test, c'est à dire des éléments pour déterminer ce qui fait que les tests passent ou échouent. Cette phase permet déjà de relever des éventuels incohérences ou imprécisions.
@@ -62,7 +68,6 @@ Il s'agit d'un travail d'analyse bien souvent. A partir du matériel mis à disp
 #### Implémentation et execution 
 
 Il s'agit là de la partie effective, qui consiste a automatiser les tests, les arranger sous forme de suite et les exécuter en fonction de priroités définies à l'étape précédente. Pour ça on découpe souvent ceci en campagne. Nous verrons dans le chapitre suivant un focus sur les différents niveaux de test. Il arrive 
-
 
 #### Evaluation et Reporting 
 
@@ -122,10 +127,6 @@ Les tests d'acceptation dont des tests de haut niveau permettant de vérifier si
 * Les tests sont automatisable à tout niveau
 * Un test non executé ne sert à rien
 * Les bons tests échouent
-
-### Être un testeur certifié 
-
-Il existe, et ceci afin que les différentes entreprises informatiques voulant parler le même langage puisse, un organisme de certification international : ISTQB.
 
 ### En complément : 
 
