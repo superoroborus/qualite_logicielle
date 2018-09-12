@@ -185,10 +185,20 @@ L'inconvénient de cette méthode est qu'elle va impliquer le temps de deux pers
 
 *J'aimerais bien vivre en Théorie, car en Théorie tout se passe bien.*
 
-Avant toute chose, il convient de rappeler ce qu'est le test unitaire : le test unitaire  est une procédure permettant de vérifier le bon fonctionnement d'un composant (voir plus haut)
+Avant toute chose, il convient de rappeler ce qu'est le test unitaire : le test unitaire  est une procédure permettant de vérifier le bon fonctionnement d'un composant (voir plus haut). Adopter le pilotage par les tests consiste à travailler de la manière suivante : 
 
+* Démarrer sa tache de développement par l'écriture d'un test qui échoue
+* Écrivez le code pour que le test passe
+* Vérifier que le code passe
+* Restructurer votre code et automatisez le trest
+
+Pour s'entrainer à ça, je conseille de faire régulièrement des katas (ce sera fait dans la suite de votre formation). Adopter le développement piloter par les tests (TDD) permet d'obtenir, très rapidement, une bonne couverture des composants. L'automatisation et l'execution des tests permettra de détecter rapidement des régression dans votre code.
 
 ### Automatiser l'exécution des tests
+
+Comme indiquer dans le chapitre précédent, une bonne pratique consiste à automatiser l'exécution des tests. Je rappelle qu'un test non joué est un test inutile qui, en plus risque de ne plus être pertinent quand il sera rejoué.
+
+Il existe plusieurs possibilités en matière d'automatisation selon le niveau de test ou la criticité de l'application ou de la durée d'execution des tests. Il est possible d'executer les tests soit de manière régulière, soit lors d'un événement comme par exemple un commit sur le dépot.
 
 ### Livrer réguliérement
 
