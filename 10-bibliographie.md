@@ -8,3 +8,5 @@
 * [99 ballons](http://coach-agile.com/99-ballons/)
 * [Article sur l'importance de l'intégration continue dans le développement applicatif](https://blog.getty.io/importance-of-continuous-integration-on-software-development-30ab74c61c1) (en anglais)
 * [Vidéo sur l'intégration continue](https://www.youtube.com/watch?v=ymPOI4gWQFY) (en anglais aussi)
+* [Apprenez la syntaxe Gherkin](http://blog.thiga.fr/product-management/bdd-gherkin-pour-ecrire-vos-user-stories/)
+* [Gherkin et les tests d'acceptation](https://connect.adfab.fr/dev/gherkin-et-les-tests-dacceptation)

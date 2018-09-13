@@ -80,7 +80,7 @@ Le but de cette phase est de fournir un retour et une visibilité sur les activi
 
 #### Exercices 
 
-Dans l'exemple suivant, quel est le nombre minimu de cas de test nécessaires pour obtenir une couverture de 100% de couverture?
+Dans l'exemple suivant, quel est le nombre minimum de cas de test nécessaires pour obtenir une couverture de 100% de couverture?
 
 ```
    Reduction = 0
@@ -204,26 +204,82 @@ Il existe plusieurs possibilités en matière d'automatisation selon le niveau d
 
 Pour ces deux points, nous verrons plus loin que ces bonnes pratiques sont facilités par la mise en place d'une plateforme d'intégration continue.
 
+### Exercies : 
+
+#### Revue : 
+
+*Lire des lignes de code et identifier les erreurs rencontrées.*
+
+#### TDD 
+
+*Identifier les tests nécessaires à la réalisation d'une fonction FizzBuzz*
+
 ## Outils
 
 Il est important ici d'identifier quelques familles d'outils que l'on va retrouver quelque soit le langage que l'on utilise.
 
 ### Système de gestion de version
 
-* git (à ne pas confondre avec github).
-* github (à ne pas confondre avec git)
+Le système de gestion de version est une part importante de la qualité, s'il est bien utilisé. Ainsi il peut-servir à différentes choses :
+
+* Conserver le code
+* Isoler les développement par le biais de branches (si on utilises autre chose que CVS ou SVN)
+* Permettre de retrouver l'origine d'un bug avec git bisect.
+
+Le système de gestion de version peut s'intégrer dans un environnement plus important. L'exemple le plus marquant est github (mais intéressez vous à gitlab aussi). En plus vous pouvez :
+
+* Lier un commit à un ticket ou une user story
+* Faire des revues (pull-request)
+* Faire de la gestion de projet
 
 ### Les VMs et Conteneurs 
 
+Ces outils vous permettront d'avoir plusieurs configurations machines sur votre poste de développement. Ainsi vous aurez la possibilité de déployer votre code sur une configuration sensiblement identique à celle de production.
+
+Conseil : Ayez toujours une version de développement plus strict que la production. 
+
+Autre conseil : Activez (et consultez) les logs.
+
 ### Les linters
+
+Un linter est un outil d'analyse statique de code. Il permet de détecter les erreurs de syntaxe, le non respect de styles ou le suivi de bonnes pratiques. L'objectif est de maintenir un code lisible et compréhensible par l'équipe ainsi que de détecter, au plus tôt, des bugs liés à la syntaxe.
+
+A noter que des systèmes permettant d'automatiser les corrections existent et que les IDE intégrent des plugins permettant de surligner les erreurs détectées. 
 
 ### Les outils de statistiques
 
+Il s'agit d'une gamme assez large d'outils de différentes natures qui permettent de dresser des statistiques sur le code.
+
+Ces statistiques peuvent être très simples (par exemple le nombre de lignes de code d'un projet, les copy/paste également) à des données plus complexes comme le calcul de la complexité cyclomatique des fonctions, permettant ainsi d'identifier les points importants à refactoriser.
+
+
+
 ### Les framework de test
+
+Il en existe pour à peu près tous les langages et pour tous les niveaux de tests.
+
+Dans les outils très connus, il y'a la famille des Unit (PHP Unit en PHP, JUnit en Java, Jasmine ou Mocha en Javascript) pour les tests unitaires et systèmes.
+
+Pour des tests plus avancés, il existe des framework de tests fonctionnels réutilisent les mots clés "Given, When Then" qui se rapproche de la syntaxe utilisée pour rédiger des User Stories
+
+```
+Given i'm connected as a user
+When i logout
+Then i'm disconnected
+```
+Le framework va ensuite interpréter les mots clés et executer des helpers en fonction des libellés (ici un helper pour "i'm connected as a user", un autre pour "i logout" et un dernier pour "i'm disconnected") ce qui va déclencher les assertions. 
+
+Il est tout à fait possible de faire des tests systèmes et des tests d'acceptance à l'aide de ce genre de syntaxe.
+
+Une autre famille est la famille des frameworks de tests E2E (End to end). Souvent basés sur Selenium (dans le cas du développement web) ces frameworks permettent de tester une application du début à la fin en simulant un parcours utilisateur. C'est très pratique pour s'assurer du fonctionnement d'une application mais, bien souvent, ce sont des tests complexes à maintenir.
 
 ### Les outils de déploiement
 
+Ces outils prennent en charge le processus de déploiement d'une application. 
+
 ### Les plateformes d'intégration continue
+
+C'est un peu l'anneau qui les gouverne tous. Une plateforme d'intégration continue va utiliser les autres outils que ce soit en entrée, en execution ou en sortie et, ainsi, assurer la vérification du respect du projet des standards, du fait que les tests passent avant de lancer un déploiement. Nous verrons plus en détail cet outil au cours d'un prochain TP.
 
 ## Exercices :
 
