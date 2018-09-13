@@ -10,3 +10,4 @@
 * [Vidéo sur l'intégration continue](https://www.youtube.com/watch?v=ymPOI4gWQFY) (en anglais aussi)
 * [Apprenez la syntaxe Gherkin](http://blog.thiga.fr/product-management/bdd-gherkin-pour-ecrire-vos-user-stories/)
 * [Gherkin et les tests d'acceptation](https://connect.adfab.fr/dev/gherkin-et-les-tests-dacceptation)
+* [Les linters javascript](https://www.sodifrance.fr/blog/les-linters-javascript/)
