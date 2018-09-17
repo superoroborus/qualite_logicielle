@@ -13,3 +13,4 @@
 * [Les linters javascript](https://www.sodifrance.fr/blog/les-linters-javascript/)
 * [La pyramide des tests par la pratique](https://blog.octo.com/la-pyramide-des-tests-par-la-pratique-1-5/)
 * [Le Code Coverage, cet éternel incompris](https://damien.pobel.fr/post/code-coverage-taux-couverture-tests/)
+* [La moitié du temps perdue sur du mauvais code?](https://www.zdnet.fr/actualites/la-moitie-du-temps-des-developpeurs-perdue-sur-du-mauvais-code-39873625.htm)
