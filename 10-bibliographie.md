@@ -12,3 +12,4 @@
 * [Gherkin et les tests d'acceptation](https://connect.adfab.fr/dev/gherkin-et-les-tests-dacceptation)
 * [Les linters javascript](https://www.sodifrance.fr/blog/les-linters-javascript/)
 * [La pyramide des tests par la pratique](https://blog.octo.com/la-pyramide-des-tests-par-la-pratique-1-5/)
+* [Le Code Coverage, cet éternel incompris](https://damien.pobel.fr/post/code-coverage-taux-couverture-tests/)
