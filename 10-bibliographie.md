@@ -15,3 +15,5 @@
 * [Le Code Coverage, cet éternel incompris](https://damien.pobel.fr/post/code-coverage-taux-couverture-tests/)
 * [La moitié du temps perdue sur du mauvais code?](https://www.zdnet.fr/actualites/la-moitie-du-temps-des-developpeurs-perdue-sur-du-mauvais-code-39873625.htm)
 * [Coding Dojo](http://iblasquez.github.io/presentation_TDD_CodingDojo/#1)
+* [Ma boite à outils QA](https://brice.github.io/billets-prez/prez/meetup-symfony/slides/#/)
+* [Comment tester une fonction de 4 lignes](https://dev.to/brice/revenir--la-base--tester-une-fonction-de-4-lignes-et-oui-3f86)
