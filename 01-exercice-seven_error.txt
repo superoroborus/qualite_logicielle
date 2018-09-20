@@ -1,6 +1,5 @@
 Dans le code suivant identifiez les différentes erreurs s'y trouvant
 
-```
 class Foo
 {
 
@@ -38,4 +37,4 @@ class Foo
       return ($status != 'all');
   }
 }
-```
+
