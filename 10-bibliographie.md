@@ -17,3 +17,5 @@
 * [Coding Dojo](http://iblasquez.github.io/presentation_TDD_CodingDojo/#1)
 * [Ma boite à outils QA](https://brice.github.io/billets-prez/prez/meetup-symfony/slides/#/)
 * [Comment tester une fonction de 4 lignes](https://dev.to/brice/revenir--la-base--tester-une-fonction-de-4-lignes-et-oui-3f86)
+
+* https://dev.to/restoreddev/writing-beautiful-code-10p6
